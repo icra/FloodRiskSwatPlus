@@ -1,0 +1,47 @@
+# This file contains metadata for your plugin.
+
+# This file should be included when you package your plugin.# Mandatory items:
+
+[general]
+name=FloodRiskSwatPlus
+version=1.0.0
+qgisMinimumVersion=3.0
+description=QGIS plugin to assess flood risk impacts in economic terms for SWAT+ scenarios.
+author= Xavier Garcia, Oliu Llorente, Laia Estrada, Vicenç Acuña - ICRA
+email=ollorente@icra.cat
+
+about=FloodRiskSwatPlus is a QGIS plugin designed to assess flood risk impacts in economic terms for scenarios modeled with SWAT+, such as land management changes or climate change projections. It requires watershed layers and daily flow rate output data for multiple scenarios. The plugin includes a tool to generate a damage unit layer based on flood damage maps (currency/m²) for three to five return periods. Using this, the flood risk impact model estimates the expected annual damage (EAD) at the chosen administrative level, providing an economic assessment of the simulated scenarios. Additionally, it calculates the average percentage change in flood probabilities, offering valuable insights for flood risk management and adaptation planning.
+
+tracker=http://bugs
+repository=http://repo
+# End of mandatory metadata
+
+# Recommended items:
+
+hasProcessingProvider=yes
+# Uncomment the following line and add your changelog:
+# changelog=
+
+# Tags are comma separated with spaces allowed
+tags=environmental management, flood, risk, SWAT+, hydrology, watershed, climate change, economic assessment
+
+homepage=http://homepage
+category=Hydrology
+icon=icons/icon.png
+# experimental flag
+experimental=False
+
+# deprecated flag (applies to the whole plugin, not just a single version)
+deprecated=False
+
+# Since QGIS 3.8, a comma separated list of plugins to be installed
+# (or upgraded) can be specified.
+# Check the documentation for more information.
+# plugin_dependencies=
+
+Category of the plugin: Raster, Vector, Database or Web
+# category=
+
+# If the plugin can run on QGIS Server.
+server=False
+
